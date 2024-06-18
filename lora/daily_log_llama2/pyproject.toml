@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "daily_log_llama2"
+version = "0.1.0"
+description = ""
+authors = ["EthanHistory <hanpersonality@gmail.com>"]
+packages = [{include = "source", from="source"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+datasets = "^2.20.0"
+accelerate = "^0.31.0"
+bitsandbytes = "^0.43.1"
+trl = "^0.9.4"
+peft = "^0.11.1"
+transformers = "^4.41.2"
+huggingface-hub = "^0.23.4"
+pydantic = "^2.7.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
